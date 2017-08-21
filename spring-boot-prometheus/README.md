@@ -3,12 +3,14 @@ Spring Boot Exporter for Prometheus TSDB.
 
 This demo assumes you know how to run Docker.
 
-Building Containers
+Building Containers & prometheus application
 ---------------------
 
 Nothing special if you already have Docker installed:
 
     $ git clone https://github.com/buraksarp/istanbul-spring-meetup-workshop.git
+    $ cd istanbul-spring-meetup-workshop/prometheus-app
+    $ mvn clean package -DskipTests
     $ cd istanbul-spring-meetup-workshop/spring-boot-prometheus
     $ docker-compose build 
 
