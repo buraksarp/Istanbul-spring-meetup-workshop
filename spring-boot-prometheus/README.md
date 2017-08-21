@@ -9,9 +9,9 @@ Building Containers & prometheus application
 Nothing special if you already have Docker installed:
 
     $ git clone https://github.com/buraksarp/istanbul-spring-meetup-workshop.git
-    $ cd istanbul-spring-meetup-workshop/prometheus-app
+    $ cd istanbul-spring-meetup-workshop/spring-boot-prometheus/prometheus-app
     $ mvn clean package -DskipTests
-    $ cd istanbul-spring-meetup-workshop/spring-boot-prometheus
+    $ cd ..
     $ docker-compose build 
 
 Running Containers with the docker-compose
